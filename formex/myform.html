@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <![endif]-->
+<html>
+    <head>
+        <title></title>
+        <link rel="stylesheet" href="">
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <form action="myform1.php" method="post">
+            Which is your favorite movie?
+            <input type="text" name="formMovie" maxlength="50" value="<?=$varMovie?>">
+        
+            What is your name?
+            <input type="text" name="formName" maxlength="50" value="<?=$varName?>">
+        
+            <input type="submit" name="formSubmit" value="Submit">
+        </form>
+        
+        <script src="" async defer></script>
+    </body>
+</html>
+
+
